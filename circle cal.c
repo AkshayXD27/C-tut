@@ -14,3 +14,5 @@ int main(){
     printf("Surface area of sphere : %.2f\n",sa);
     printf("VOlume of Sphere : %.2f\n",v);
 }
+
+// u need gcc -g "circle cal.c" -o "circle cal" -lm to create obj file and to run u need to use ./circle\ cal
