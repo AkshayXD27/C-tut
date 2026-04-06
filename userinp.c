@@ -22,7 +22,7 @@ int main(){
     */ 
     getchar();
     fgets(name,sizeof(name),stdin); // string name size and standard input the problem is after click on enter it takes the enter which \n too 
-    name[strlen(name) -1 ] = '\0';
+    name[strlen(name) -1 ] = '\0'; // replaces the \n line enter with statement terminator \0
     printf("%d \n",age);
     printf("%.2f \n",gpa);
     printf("%c \n",grade);
