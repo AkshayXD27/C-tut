@@ -2,10 +2,15 @@
 #include <math.h>
 
 int main(){
-    float radius,area = 0.0f;
-    double pi = 3.14159265359;
+    float radius = 0.0f , area = 0.0f , sa = 0.0f , v = 0.0f;
+    const double pi = 3.14159265359;
 
     printf("Enter radius of circle: ");
-    scanf("%d",&radius);
-    
+    scanf("%f",&radius);
+    area = pi * pow(radius,2);
+    sa = 4 * pi * pow(radius , 2);
+    v = (4.0/3.0) * pi * pow(radius,3);
+    printf("Area of circle : %.2f\n",area);
+    printf("Surface area of sphere : %.2f\n",sa);
+    printf("VOlume of Sphere : %.2f\n",v);
 }
