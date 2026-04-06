@@ -21,4 +21,11 @@ int main(){
      printf("%+d\n",a); 
      printf("%+d\n",b); 
      printf("%+d\n",c);  // prints + if num is pos - if neg
+
+        /* percision 
+            the default behavior of c is to print 6 numbers after decimal point
+
+        */
+
+
 }
