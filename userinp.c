@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 int main(){
     int age = 0;
     float gpa = 0.0f; // f tells us that it is a floating num
@@ -20,8 +20,9 @@ int main(){
 
         gets() it has no limit meaning even tho the size of name is 30 a user can give 100 set of chars hence it lead to memory corruption
     */ 
+    getchar();
     fgets(name,sizeof(name),stdin); // string name size and standard input the problem is after click on enter it takes the enter which \n too 
-
+    name[strlen(name) -1 ] = '\0';
     printf("%d \n",age);
     printf("%.2f \n",gpa);
     printf("%c \n",grade);
