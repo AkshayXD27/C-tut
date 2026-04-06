@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+
+
 int main(){
     char adj [30] = "";
     char noun [30] = "";
