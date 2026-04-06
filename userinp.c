@@ -27,5 +27,4 @@ int main(){
     printf("%.2f \n",gpa);
     printf("%c \n",grade);
     printf("%s \n",name);
-
 }
