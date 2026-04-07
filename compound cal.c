@@ -24,3 +24,5 @@ int main() {
      printf("total amount = %.2lf",total);
 
 }
+
+// u need gcc -g "compound cal.c" -o "compound cal" -lm
