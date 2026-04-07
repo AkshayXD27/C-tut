@@ -20,7 +20,7 @@ int main(){
         printf("Enter the kilogram: ");
         scanf("%lf",&ui); // lf = long floating number
         conv =  ui * k; // kg into pounds 
-        printf("After conversion: %lf Pounds",conv);
+        printf("After conversion: %.4lf Pounds",conv);
     }
    else if (c == 0){
         printf("Enter the Pounds: ");
