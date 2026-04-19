@@ -33,3 +33,5 @@ int main(){
 }
 
 }
+
+// Rock paper scissors and banking project left to do
