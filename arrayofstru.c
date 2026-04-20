@@ -12,4 +12,5 @@ int main(){
     for(int i = 0; i<rows;i++){
         printf("%s %d %d\n",c1[i].cars,c1[i].year,c1[i].price);
     }
+    
 }
